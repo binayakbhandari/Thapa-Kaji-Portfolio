@@ -9,6 +9,14 @@ function App() {
   return (
     <>
       <div>
+        
+      <a href="https://www.facebook.com/profile.php?id=100068564912254" target="_blank">
+        <div class="profile-container">
+          <div class="profile-outline"></div>
+          <img src="./Indrajit_Sir_Profile.jpg" alt="Profile" class="profile-image" />
+        </div>
+          </a>
+
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -24,8 +32,8 @@ function App() {
       </div>
       <p className="read-the-docs">
         <pre>
-        Portfolio will be built in vite and React.<br />
-        So, Click on Vite and React logos to learn more
+          Portfolio will be built in vite and React.<br />
+          So, Click on Vite and React logos to learn more
         </pre>
       </p>
     </>
